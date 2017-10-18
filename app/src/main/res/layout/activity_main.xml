@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="io.github.froger.anywhere.ui.activity.MainActivity">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/Tabpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="72pt"
+            />
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/appBarLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <include
+                android:id="@+id/toolbar"
+                layout="@layout/view_feed_toolbar"
+                android:layout_height="match_parent" />
+            <android.support.design.widget.TabLayout
+                android:id="@+id/tlUserProfileTabs"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="?attr/colorAccent"
+                app:tabGravity="fill"
+                app:tabIndicatorColor="#5be5ad"
+                app:tabIndicatorHeight="4dp"
+                app:tabMode="fixed"
+
+                />
+            <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/navigation_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                >
+            </android.support.v7.widget.Toolbar>
+
+
+        </android.support.design.widget.AppBarLayout>
+
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/btnCreate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_marginBottom="@dimen/btn_fab_margins"
+            android:layout_marginRight="@dimen/btn_fab_margins"
+            android:src="@drawable/ic_instagram_white"
+            app:borderWidth="0dp"
+            app:elevation="6dp"
+            app:pressedTranslationZ="12dp" />
+
+
+    </android.support.design.widget.CoordinatorLayout>
+
+</RelativeLayout>
