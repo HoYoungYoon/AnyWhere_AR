@@ -18,7 +18,6 @@
  
  * Marker , Raider , Text or Screen 처리 : Android<br>- 마커 개선(사용자 Like , Server 데이터 연동 , 거리 순 정렬 )
   
-  
  * GoogleMap 길찾기 및 MapView : Android<br>- GoogleMap API 사용
   
  * Server 연동 및 액션처리 :Android<br>- PHP를 활용한 Json 서버 연동(HTTP Request) 
