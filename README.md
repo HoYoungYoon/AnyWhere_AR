@@ -13,6 +13,7 @@
  
  ### 참여 내용
  * Mixare(오픈소스 분석 및 확장)AR : Android 
+ <br>
   + 기존 Mixare AR 데이터 파싱 -> Server Action 변경   
   
  * 안드로이드 6.0 버전 호환 : Android
