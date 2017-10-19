@@ -23,8 +23,7 @@
   
  * Server 연동 및 액션처리 :Android<br>- PHP를 활용한 Json 서버 연동(HTTP Request) 
    
- * UI 담당 : Android
-  -OpenSource "InstagramMaterial" 사용
+ * UI 담당 : Android<br>-OpenSource "InstagramMaterial" 사용
   
   
  ### Process
@@ -35,15 +34,11 @@
  
  ### TroubleShooting
  
- * Mixare OpenSource 호환 및 분석
-  - 2013년 이후로 유지보수가 안되어 5.0 버전 이후로 호환성 문제 발생 : 호환 기능 모듈화
-    Camera -> Camera2 API 사용  , MapActivity -> GoogleMapAPI 사용 , AR Data(HttpRequest) -> APM Server
+ * Mixare OpenSource 호환 및 분석<br>- 2013년 이후로 유지보수가 안되어 5.0 버전 이후로 호환성 문제 발생 : 호환 기능 모듈화<br>Camera -> Camera2 API 사용  , MapActivity -> GoogleMapAPI 사용 , AR Data(HttpRequest) -> APM Server
  
- * 서버 연동을 통한 AR 구현간에 OnResume 상태에서 지속적인 위치 Request 요청과 서버 연동으로 인해 Device 과부화 발생
-  - Splash 화면을 두어 Handler Thread를 활용한 Server 데이터를 미리 받아오며 requestLocationUpdates GPS 요청을 거리와 시간을 조절하여 해결
+ * 서버 연동을 통한 AR 구현간에 OnResume 상태에서 지속적인 위치 Request 요청과 서버 연동으로 인해 Device 과부화 발생<br>- Splash 화면을 두어 Handler Thread를 활용한 Server 데이터를 미리 받아오며 requestLocationUpdates GPS 요청을 거리와 시간을 조절하여 해결
  
- * 사용자 주변의 근접한 순으로  AR 데이터 정렬  과정에서  시간복잡도 증가로 인한 성능저하 
-  -  자바 Collections sort() 메소드 활용하여 
+ * 사용자 주변의 근접한 순으로  AR 데이터 정렬  과정에서  시간복잡도 증가로 인한 성능저하 <br>-  자바 Collections sort() 메소드 활용하여 
  
     
  
