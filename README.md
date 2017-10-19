@@ -12,9 +12,7 @@
  * 성과 : 한림대 링크사업단 경진대회 은상 ,교내 창업동아리 설립(PlayStore 출시목표), 교내 창업동아리 대표 강원도 대학생 창업 대회 (11월)
  
  ### 참여 내용
- * Mixare(오픈소스 분석 및 확장)AR : Android 
- <br>
-  + 기존 Mixare AR 데이터 파싱 -> Server Action 변경   
+ * Mixare(오픈소스 분석 및 확장)AR : Android <br>- 기존 Mixare AR 데이터 파싱 -> Server Action 변경   
   
  * 안드로이드 6.0 버전 호환 : Android
   - Camera2 API 사용
