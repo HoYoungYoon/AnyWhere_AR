@@ -18,7 +18,6 @@
  
  * Marker , Raider , Text or Screen 처리 : Android<br>- 마커 개선(사용자 Like , Server 데이터 연동 , 거리 순 정렬 )
   
-  
  * GoogleMap 길찾기 및 MapView : Android<br>- GoogleMap API 사용
   
  * Server 연동 및 액션처리 :Android<br>- PHP를 활용한 Json 서버 연동(HTTP Request) 
@@ -27,11 +26,33 @@
   
   
  ### Process
- 메인Logo Splash (서버 Action)  -> Main 화면 4개의 TabLayout 4개의 Tab (데이터Feed , 지도 , TagCloud ,Login)
- -> AR Button Click -> 사용자 주변 데이터 AR 확인
+<table border="0">
+<tr>
+<td>
+<figure>
+  <img src="https://github.com/HoYoungYoon/AnyWhere_AR/blob/master/img/Main.PNG" alt="my alt text"/>
+  <figcaption>This is my caption text.</figcaption>
+</figure>
+</td>
+ <td>
+<figure>
+  <img src="https://github.com/HoYoungYoon/AnyWhere_AR/blob/master/img/Main.PNG" alt="my alt text"/>
+  <figcaption>This is my caption text.</figcaption>
+</figure>
+</td>
+ <td>
+<figure>
+  <img src="https://github.com/HoYoungYoon/AnyWhere_AR/blob/master/img/Main.PNG" alt="my alt text"/>
+  <figcaption>This is my caption text.</figcaption>
+</figure>
+</td>
+</tr>
+</table>
+
+
 
  ### Workflow 
- ![work flow](https://github.com/HoYoungYoon/AnyWhere_AR/blob/master/img/Workflow.PNG "Optional title")
+ ![work flow](https://github.com/HoYoungYoon/AnyWhere_AR/blob/master/img/flow.PNG "Work Flow")
  
  ### TroubleShooting
  
@@ -39,7 +60,7 @@
  
  * 서버 연동을 통한 AR 구현간에 OnResume 상태에서 지속적인 위치 Request 요청과 서버 연동으로 인해 Device 과부화 발생<br>- Splash 화면을 두어 Handler Thread를 활용한 Server 데이터를 미리 받아오며 requestLocationUpdates GPS 요청을 거리와 시간을 조절하여 해결
  
- * 사용자 주변의 근접한 순으로  AR 데이터 정렬  과정에서  시간복잡도 증가로 인한 성능저하 <br>-  자바 Collections sort() 메소드 활용하여 
+ * 사용자 주변의 근접한 순으로  AR 데이터 정렬  과정에서  시간복잡도 증가로 인한 성능저하 <br>-  자바 Collections sort() 메소드 활용하여  
  
     
  
