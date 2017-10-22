@@ -26,13 +26,14 @@
   
   
  ### Process
-*image_caption *<br>
+*메인Logo Splash (서버 Action)  -> Main 화면 4개의 TabLayout 4개의 Tab (데이터Feed , 지도 , TagCloud ,Login)*<br>
 ![](https://github.com/HoYoungYoon/AnyWhere_AR/blob/master/img/Main.PNG)
-![](https://github.com/HoYoungYoon/AnyWhere_AR/blob/master/img/Tab.png)<br>*image_caption *<br>
+![](https://github.com/HoYoungYoon/AnyWhere_AR/blob/master/img/Tab.png)<br>
+*구글맵을 통하여 사용자 주변 데이터 확인 및 길찾기 *<br>
 
 ![](https://github.com/HoYoungYoon/AnyWhere_AR/blob/master/img/Map.png)
 ![](https://github.com/HoYoungYoon/AnyWhere_AR/blob/master/img/Map_load.png)<br>*image_caption *<br>
-
+*메인 카메라 버튼 클릭 시 AR을 통하여 사용자의 주변 데이터 AR *
 ![](https://github.com/HoYoungYoon/AnyWhere_AR/blob/master/img/Ar1.png)
 ![](https://github.com/HoYoungYoon/AnyWhere_AR/blob/master/img/Ar2.png)
 
