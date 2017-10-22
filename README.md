@@ -26,8 +26,11 @@
   
   
  ### Process
-![](https://github.com/HoYoungYoon/AnyWhere_AR/blob/master/img/Main.PNG "Main_splash")
-*메인 Logo Splash(서버 액션)*
+<figure>
+  <img src="{{https://github.com/HoYoungYoon/AnyWhere_AR/blob/master/img/Main.PNG}}" alt="my alt text"/>
+  <figcaption>This is my caption text.</figcaption>
+</figure>
+
 
 
 
