@@ -26,8 +26,7 @@
   
   
  ### Process
-<table>
- <table>
+<table border="0">
 <tr>
 <td>
 <figure>
@@ -37,7 +36,7 @@
 </td>
  <td>
 <figure>
-  <img src="{{site.url}}/assets/image.jpg" alt="my alt text"/>
+  <img src="https://github.com/HoYoungYoon/AnyWhere_AR/blob/master/img/Main.PNG" alt="my alt text"/>
   <figcaption>This is my caption text.</figcaption>
 </figure>
 </td>
