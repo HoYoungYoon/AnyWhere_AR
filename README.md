@@ -26,28 +26,9 @@
   
   
  ### Process
-<table border="0">
-<tr>
-<td>
-<figure>
-  <img src="https://github.com/HoYoungYoon/AnyWhere_AR/blob/master/img/Main.PNG" alt="my alt text"/>
-  <figcaption>This is my caption text.</figcaption>
-</figure>
-</td>
- <td>
-<figure>
-  <img src="https://github.com/HoYoungYoon/AnyWhere_AR/blob/master/img/Main.PNG" alt="my alt text"/>
-  <figcaption>This is my caption text.</figcaption>
-</figure>
-</td>
- <td>
-<figure>
-  <img src="https://github.com/HoYoungYoon/AnyWhere_AR/blob/master/img/Main.PNG" alt="my alt text"/>
-  <figcaption>This is my caption text.</figcaption>
-</figure>
-</td>
-</tr>
-</table>
+ ![](https://github.com/HoYoungYoon/AnyWhere_AR/blob/master/img/Main.PNG)
+*image_caption*
+
 
 
 
