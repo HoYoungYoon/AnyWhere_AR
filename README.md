@@ -26,26 +26,29 @@
   
   
  ### Process
+<table>
+ <table>
+<tr>
+<td>
 <figure>
-  <img src="https://github.com/HoYoungYoon/AnyWhere_AR/blob/master/img/Main.PNG" alt="my alt text"/>
+  <img src="{{site.url}}/assets/image.jpg" alt="my alt text"/>
   <figcaption>This is my caption text.</figcaption>
 </figure>
+</td>
+ <td>
 <figure>
-  <img src="https://github.com/HoYoungYoon/AnyWhere_AR/blob/master/img/Main.PNG" alt="my alt text"/>
+  <img src="{{site.url}}/assets/image.jpg" alt="my alt text"/>
   <figcaption>This is my caption text.</figcaption>
 </figure>
-
+</td>
+ <td>
 <figure>
-  <img src="https://github.com/HoYoungYoon/AnyWhere_AR/blob/master/img/Main.PNG" alt="my alt text"/>
+  <img src="{{site.url}}/assets/image.jpg" alt="my alt text"/>
   <figcaption>This is my caption text.</figcaption>
 </figure>
-
-<figure>
-  <img src="https://github.com/HoYoungYoon/AnyWhere_AR/blob/master/img/Main.PNG" alt="my alt text"/>
-  <figcaption>This is my caption text.</figcaption>
-</figure>
-
-
+</td>
+</tr>
+</table>
 
 
 
