@@ -28,7 +28,7 @@
  ### Process
  <table class="image">
 <caption align="bottom">{{ Text }}</caption>
-<tr><td><img src="{{ https://github.com/HoYoungYoon/AnyWhere_AR/blob/master/img/Main.PNG }}" alt="{{ include.description }}"/></td></tr>
+<tr><td><img src="{{ https://github.com/HoYoungYoon/AnyWhere_AR/blob/master/img/Main.png }}" alt="{{ include.description }}"/></td></tr>
 </table>
  메인Logo Splash (서버 Action)  -> Main 화면 4개의 TabLayout 4개의 Tab (데이터Feed , 지도 , TagCloud ,Login)
  -> AR Button Click -> 사용자 주변 데이터 AR 확인
