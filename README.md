@@ -27,7 +27,7 @@
   
  ### Process
 <figure>
-  <img src="{{https://github.com/HoYoungYoon/AnyWhere_AR.git}}/blob/master/img/Main.PNG" alt="my alt text"/>
+  <img src="https://github.com/HoYoungYoon/AnyWhere_AR/blob/master/img/Main.PNG" alt="my alt text"/>
   <figcaption>This is my caption text.</figcaption>
 </figure>
 
