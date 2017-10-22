@@ -27,7 +27,7 @@
   
  ### Process
 ![](https://github.com/HoYoungYoon/AnyWhere_AR/blob/master/img/Main.PNG "Main_splash")
-* 메인 Logo Splash(서버 액션)*
+*메인 Logo Splash(서버 액션)*
 
 
 
