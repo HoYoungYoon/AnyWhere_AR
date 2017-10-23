@@ -49,14 +49,12 @@
  * **서버 연동을 통한 AR 구현간에 OnResume 상태에서 과도한 위치 GPS Request 요청과  및 AR 연산으로 인해 카메라 화면 과부하** <br>-
  정확한 위치 파악을 위해 1M 마다 3초 간격으로 Provider를 Nettowrk, GPS Provider 를 통해 requestLocationUpdates 요청에 따라 Rendering 연산 진행 ->  Request 요청 거리와 시간을 10M ,10초 간격 조절 하고 Provider 를 2개 다 사용하기보단 GPS Provider 한가지만 사용하는 것이 배터리 사용 및 연산과정으로 AR 화면의 성능 증가  
  
- * **Request 요청마다 사용자의 주변 데이터만 받아오는 과정에서 마커의 객체 데이터 모델의 Add 과정 중 중복 객체 발생 ** <br>- 
+ * **Request 요청마다 사용자의 주변 데이터만 받아오는 과정에서 마커의 객체 데이터 모델의 Add 과정 중 중복 객체 발생** <br>- 
  Contains 메소드를 활용하여 List의 중복 최소화
  <pre><code>
 	public void addMarkers(List<Marker> markers) {
 		// 추가 이전 리스트의 사이즈 로그 생성 
 		Log.v(MixView.TAG, "Marker before: "+markerList.size());
-		for(int i = 0;i<marker;i++)
-			markerList.
 		// 인자로 받은 마커들을 리스트에 추가한다(중복은 방지)
 		for(Marker ma:markers) {
 			if(!markerList.contains(ma))
@@ -65,7 +63,7 @@
 		// 추가 이후 리스트의 사이즈 로그 생성
 		Log.d(MixView.TAG, "Marker count: "+markerList.size());
 	}
-  </pre></code>
+ </code> </pre>
   
   
  
